@@ -1,5 +1,6 @@
 import os
 
+from generator import generator
 from generator_date.refPeriodEnd import refPeriodEnd
 from generator_date.refPeriodStart import refPeriodStart
 from params_input import file_path
@@ -8,11 +9,8 @@ from params_input import file_path
 def main():
     # 1 cозадть папку и файл настройка рабочих дат.conf
     mkdir_folder()
-    # 2. # ref_period_end
-    refPeriodEnd()
-    # 3. # ref_period_end
-    refPeriodStart()
-
+    # 2 движок обработки
+    generator()
 
 # 1. # cозадть папку и файл настройка рабочих дат.conf
 def mkdir_folder():
@@ -20,9 +18,9 @@ def mkdir_folder():
     if not os.path.exists(os.path.dirname(file_path)):
         os.makedirs(os.path.dirname(file_path))
 
-    # создать файл
-    with open(os.path.join(file_path, 'настройка рабочих дат.conf'), 'w') as file:
-        file.write("")
+    # # создать файл
+    # with open(os.path.join(file_path, 'настройка рабочих дат.conf'), 'w') as file:
+    #     file.write("")
 
 
 if __name__ == "__main__":
