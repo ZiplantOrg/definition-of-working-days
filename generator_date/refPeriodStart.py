@@ -5,6 +5,14 @@ from parser_json import pars_json
 
 
 def refPeriodStart(month):
+    if month < 10:
+        new_month = str(0) + str(month)
+    else:
+        new_month = str(month)
+    date_report =  str(given_year) + '-' + str(new_month)
+    last_day = calendar.monthrange(given_year, month)[1]
+    date_report = date_report + '-' + str(last_day)
+
     if month == 1:
       new_year = given_year -1
       month =12
@@ -14,7 +22,6 @@ def refPeriodStart(month):
         new_year = given_year
         month = month - 1
         year_pars = link_json_weekend_date
-    last_day = calendar.monthrange(new_year, month)[1]
     # print(f"Последний день {month} месяца: {last_day}")
     # получить список выходных дней
     weekend_date = pars_json(year_pars)
@@ -28,8 +35,8 @@ def refPeriodStart(month):
             if not last_day in  weekend_days:
                 txt =  "предыдущий календарный рабочий день Является выходным днем и делам -1 день"
 
-                return {'parametr_date': "refPeriodStart",'year':new_year,'month': month, 'last_day': last_day, 'txt': txt}
+                return {'date_report':date_report,'parametr_date': "refPeriodStart",'year':new_year,'month': month, 'last_day': last_day, 'txt': txt}
                 break
     else:
         txt = "предыдущий календарный рабочий день Не является выходным днем"
-        return {'parametr_date': "refPeriodStart",'year': new_year, 'month': month, 'last_day': last_day, 'txt': txt}
+        return {'date_report':date_report,'parametr_date': "refPeriodStart",'year': new_year, 'month': month, 'last_day': last_day, 'txt': txt}

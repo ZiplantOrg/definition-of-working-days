@@ -26,12 +26,13 @@ def write_path(data):
     month = data['month']
     last_day = data['last_day']
     txt = data['txt']
+    date_report = data['date_report']
 
     if month <10:month = str(0) + str(month)
     date = str(year) + '-' + str(month) + '-' + str(last_day)
     print(f"{date}|{txt}")
     try:
         with open(os.path.join(file_path, 'настройка рабочих дат.conf'), 'a') as file:
-            file.write(f"$par:{parametr_date}|{date}|{txt} \n")
+            file.write(f"{date_report}|$par:{parametr_date}|{date}|{txt} \n")
     except Exception as e:
         print(f"Ошибка при открытии файла: {e}")

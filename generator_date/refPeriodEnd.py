@@ -4,8 +4,15 @@ from parser_json import pars_json
 
 
 def refPeriodEnd(month):
+    if month < 10:
+        new_month = str(0) + str(month)
+    else:
+        new_month = str(month)
+    date_report = str(given_year) + '-' + str(new_month)
+
     year_pars = link_json_weekend_date
     last_day = calendar.monthrange(given_year, month)[1]
+    date_report = date_report + '-' + str(last_day)
     # print(f"Последний день {month} месяца: {last_day}")
     # получить список выходных дней
     weekend_date = pars_json(year_pars)
@@ -18,10 +25,10 @@ def refPeriodEnd(month):
             last_day -= 1
             if not last_day in  weekend_days:
                 txt =  "Является выходным днем и делам -1 день"
-                return {'parametr_date': "refPeriodEnd", 'year': given_year, 'month': month, 'last_day': last_day,
+                return {'date_report':date_report,'parametr_date': "refPeriodEnd", 'year': given_year, 'month': month, 'last_day': last_day,
                         'txt': txt}
                 break
     else:
         txt = "Не является выходным днем"
-        return {'parametr_date': "refPeriodEnd",'year': given_year, 'month': month, 'last_day': last_day, 'txt': txt}
+        return {'date_report':date_report,'parametr_date': "refPeriodEnd",'year': given_year, 'month': month, 'last_day': last_day, 'txt': txt}
 
