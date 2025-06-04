@@ -5,7 +5,7 @@ import os
 from generator_date.refCurrentPeriodStart import refCurrentPeriodStart
 from generator_date.refPeriodEnd import refPeriodEnd
 from generator_date.refPeriodStart import refPeriodStart
-from params_input import given_year, file_path
+from params_input import given_year, file_path, taxonomy
 from parser_json import pars_json
 
 def generator():
@@ -33,6 +33,6 @@ def write_path(data):
     print(f"{date}|{txt}")
     try:
         with open(os.path.join(file_path, 'настройка рабочих дат.conf'), 'a') as file:
-            file.write(f"{date_report}|$par:{parametr_date}|{date}|{txt} \n")
+            file.write(f"{taxonomy}|{date_report}|$par:{parametr_date}|{date}\n")
     except Exception as e:
         print(f"Ошибка при открытии файла: {e}")
