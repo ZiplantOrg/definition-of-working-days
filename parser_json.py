@@ -2,10 +2,13 @@ import requests
 import json
 from params_input import link_json_weekend_date
 
-def pars_json():
+def pars_json(year_pars):
+
+
+
     # Загружаем JSON из URL
     try:
-        response = requests.get(link_json_weekend_date)
+        response = requests.get(year_pars)
         # Преобразуем ответ в JSON
         data = response.json()
     except Exception as e:
