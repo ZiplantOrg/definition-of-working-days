@@ -1,8 +1,9 @@
 import calendar
 
+from date_sling import date_sling
 from params_input import given_year, link_json_last_weekend_date,link_json_weekend_date
 from parser_json import pars_json
-def refCurrentPeriodStart(month):
+def startRepYear(month):
     if month < 10:
         new_month = str(0) + str(month)
     else:
@@ -16,9 +17,10 @@ def refCurrentPeriodStart(month):
       new_year = given_year -1
       month =12
     else:
-        new_year = given_year
-        month = month - 1
+        startRepYear = None
+        return startRepYear
     last_day = calendar.monthrange(new_year, month)[1]
     txt = "последний календарный день"
-    return {'date_report':date_report,'parametr_date': "refCurrentPeriodStart", 'year': new_year, 'month': month, 'last_day': last_day, 'txt': txt}
-
+    data = {'date_report':date_report,'parametr_date': "CurrentPeriodStart", 'year': new_year, 'month': month, 'last_day': last_day, 'txt': txt}
+    startRepYear = date_sling(data)
+    return startRepYear

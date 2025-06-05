@@ -1,5 +1,6 @@
 import calendar
 
+from date_sling import date_sling
 from params_input import given_year, link_json_last_weekend_date,link_json_weekend_date
 from parser_json import pars_json
 
@@ -17,11 +18,12 @@ def refPeriodStart(month):
       new_year = given_year -1
       month =12
       year_pars = link_json_last_weekend_date
+      last_day = calendar.monthrange(given_year, month)[1]
     else:
         year_pars = link_json_weekend_date
         new_year = given_year
         month = month - 1
-        year_pars = link_json_weekend_date
+        last_day = calendar.monthrange(given_year, month)[1]
     # print(f"Последний день {month} месяца: {last_day}")
     # получить список выходных дней
     weekend_date = pars_json(year_pars)
@@ -34,9 +36,14 @@ def refPeriodStart(month):
             last_day -= 1
             if not last_day in  weekend_days:
                 txt =  "предыдущий календарный рабочий день Является выходным днем и делам -1 день"
-
-                return {'date_report':date_report,'parametr_date': "refPeriodStart",'year':new_year,'month': month, 'last_day': last_day, 'txt': txt}
+                data = {'date_report':date_report,'parametr_date': "refPeriodStart",'year':new_year,'month': month, 'last_day': last_day, 'txt': txt}
+                data = date_sling(data)
+                data = {"date_report": date_report, "refPeriodStart": data}
+                return data
                 break
     else:
         txt = "предыдущий календарный рабочий день Не является выходным днем"
-        return {'date_report':date_report,'parametr_date': "refPeriodStart",'year': new_year, 'month': month, 'last_day': last_day, 'txt': txt}
+        data = {'date_report':date_report,'parametr_date': "refPeriodStart",'year': new_year, 'month': month, 'last_day': last_day, 'txt': txt}
+        data = date_sling(data)
+        data = {"date_report":date_report,"refPeriodStart":data }
+        return data

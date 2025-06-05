@@ -1,4 +1,6 @@
 import calendar
+
+from date_sling import date_sling
 from params_input import given_year, link_json_weekend_date
 from parser_json import pars_json
 
@@ -25,10 +27,16 @@ def refPeriodEnd(month):
             last_day -= 1
             if not last_day in  weekend_days:
                 txt =  "Является выходным днем и делам -1 день"
-                return {'date_report':date_report,'parametr_date': "refPeriodEnd", 'year': given_year, 'month': month, 'last_day': last_day,
+                data =  {'date_report':date_report,'parametr_date': "refPeriodEnd", 'year': given_year, 'month': month, 'last_day': last_day,
                         'txt': txt}
+                refPeriodEnd = date_sling(data)
+                return refPeriodEnd
                 break
     else:
         txt = "Не является выходным днем"
-        return {'date_report':date_report,'parametr_date': "refPeriodEnd",'year': given_year, 'month': month, 'last_day': last_day, 'txt': txt}
+        data = {'date_report': date_report, 'parametr_date': "refPeriodEnd", 'year': given_year, 'month': month,
+                'last_day': last_day,
+                'txt': txt}
+        refPeriodEnd = date_sling(data)
+        return refPeriodEnd
 
