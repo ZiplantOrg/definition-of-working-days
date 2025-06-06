@@ -29,14 +29,16 @@ def refPeriodEnd(month):
                 txt =  "Является выходным днем и делам -1 день"
                 data =  {'date_report':date_report,'parametr_date': "refPeriodEnd", 'year': given_year, 'month': month, 'last_day': last_day,
                         'txt': txt}
-                refPeriodEnd = date_sling(data)
-                return refPeriodEnd
+                data = date_sling(data)
+                data = {"date_report": date_report, "refPeriodEnd": data}
+                return data
                 break
     else:
         txt = "Не является выходным днем"
         data = {'date_report': date_report, 'parametr_date': "refPeriodEnd", 'year': given_year, 'month': month,
                 'last_day': last_day,
                 'txt': txt}
-        refPeriodEnd = date_sling(data)
-        return refPeriodEnd
+        data = date_sling(data)
+        data = {"date_report": date_report, "refPeriodEnd": data}
+        return data
 

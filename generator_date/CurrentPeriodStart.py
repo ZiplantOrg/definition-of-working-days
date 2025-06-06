@@ -22,6 +22,7 @@ def CurrentPeriodStart(month):
     last_day = calendar.monthrange(new_year, month)[1]
     txt = "последний календарный день"
     data = {'date_report':date_report,'parametr_date': "CurrentPeriodStart", 'year': new_year, 'month': month, 'last_day': last_day, 'txt': txt}
-    CurrentPeriodStart = date_sling(data)
-    return CurrentPeriodStart
+    data = date_sling(data)
+    data = {"date_report": date_report, "CurrentPeriodStart": data}
+    return data
 

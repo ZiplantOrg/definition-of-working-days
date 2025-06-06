@@ -60,20 +60,30 @@ def entry_point (month):
                         write_path(data)
 
                     if key == 'refPeriodEnd':
-                        obj.refPeriodEnd = refPeriodEnd(month)
+                        data = refPeriodEnd(month)
+                        obj.refPeriodEnd = data['refPeriodEnd']
+                        entry_point = obj.entry_point
+                        refPeriodEnd_date = obj.refPeriodEnd
+                        data = {'entry_point': entry_point, "date_report": data['date_report'],
+                                'name_parametr_ref': '$par:refPeriodEnd', 'work_date': refPeriodEnd_date}
+                        write_path(data)
 
                     if key == 'CurrentPeriodStart':
-                        obj.CurrentPeriodStart = CurrentPeriodStart(month)
+                        data = CurrentPeriodStart(month)
+                        obj.CurrentPeriodStart = data['CurrentPeriodStart']
+                        entry_point = obj.entry_point
+                        CurrentPeriodStart_date = obj.CurrentPeriodStart
+                        data = {'entry_point': entry_point, "date_report": data['date_report'],
+                                'name_parametr_ref': '$par:CurrentPeriodStart', 'work_date': CurrentPeriodStart_date}
+                        write_path(data)
+
 
                     if key == 'CurrentPeriodEnd':
-                        obj.CurrentPeriodEnd = CurrentPeriodEnd(month)
-            print(f"Entry(entry_point={obj.entry_point}, period={obj.period}, refPeriodEnd={obj.refPeriodEnd}, refPeriodStart={obj.refPeriodStart}, CurrentPeriodEnd={obj.CurrentPeriodEnd}, CurrentPeriodStart={obj.CurrentPeriodStart}, startRepYear={obj.startRepYear}, startQuart={obj.startQuart})")
-
-
-    # # модули_________
-    # data = refPeriodEnd(month)
-    # write_path(data)
-    # data = refPeriodStart(month)
-    # write_path(data)
-    # data = CurrentPeriodStart(month)
-    # write_path(data)
+                        data = CurrentPeriodEnd(month)
+                        obj.CurrentPeriodEnd = data['CurrentPeriodEnd']
+                        entry_point = obj.entry_point
+                        CurrentPeriodEnd_date = obj.CurrentPeriodEnd
+                        data = {'entry_point': entry_point, "date_report": data['date_report'],
+                                'name_parametr_ref': '$par:CurrentPeriodEnd', 'work_date': CurrentPeriodEnd_date}
+                        write_path(data)
+            # print(f"Entry(entry_point={obj.entry_point}, period={obj.period}, refPeriodEnd={obj.refPeriodEnd}, refPeriodStart={obj.refPeriodStart}, CurrentPeriodEnd={obj.CurrentPeriodEnd}, CurrentPeriodStart={obj.CurrentPeriodStart}, startRepYear={obj.startRepYear}, startQuart={obj.startQuart})")

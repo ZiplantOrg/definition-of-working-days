@@ -13,5 +13,7 @@ def CurrentPeriodEnd(month):
     last_day = calendar.monthrange(given_year, month)[1]
     date_report = date_report + '-' + str(last_day)
     txt = "последний календарный день"
-    return date_report
+    data = {"date_report": date_report, "CurrentPeriodEnd": date_report}
+
+    return data
 
