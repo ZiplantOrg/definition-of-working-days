@@ -6,6 +6,7 @@ from generator_date.CurrentPeriodEnd import CurrentPeriodEnd
 from generator_date.CurrentPeriodStart import CurrentPeriodStart
 from generator_date.refPeriodEnd import refPeriodEnd
 from generator_date.refPeriodStart import refPeriodStart
+from generator_date.startQuart import startQuart
 from generator_date.startRepYear import startRepYear
 from params_input import given_year, file_path, taxonomy, entries, data_object, Entry
 from parser_json import pars_json
@@ -77,6 +78,57 @@ def entry_point (month):
                                 'name_parametr_ref': '$par:CurrentPeriodStart', 'work_date': CurrentPeriodStart_date}
                         write_path(data)
 
+                    if key == 'CurrentPeriodEnd':
+                        data = CurrentPeriodEnd(month)
+                        obj.CurrentPeriodEnd = data['CurrentPeriodEnd']
+                        entry_point = obj.entry_point
+                        CurrentPeriodEnd_date = obj.CurrentPeriodEnd
+                        data = {'entry_point': entry_point, "date_report": data['date_report'],
+                                'name_parametr_ref': '$par:CurrentPeriodEnd', 'work_date': CurrentPeriodEnd_date}
+                        write_path(data)
+        if 'quart_obj' in obj.period:
+            if month in [3, 6, 9]:
+                for key, value in obj.__dict__.items():
+                    if key == 'refPeriodStart' and value is None:
+                        continue
+                    if key == 'refPeriodEnd' and value is None:
+                        continue
+                    if key == 'CurrentPeriodStart' and value is None:
+                        continue
+                    if key == 'CurrentPeriodEnd' and value is None:
+                        continue
+                    if key == 'startRepYear' and value is None:
+                        continue
+                    if key == 'startQuart' and value is None:
+                        continue
+
+                    if key == 'refPeriodStart':
+                        data = refPeriodStart(month)
+                        obj.refPeriodStart = data['refPeriodStart']
+                        entry_point = obj.entry_point
+                        refPeriodStart_date = obj.refPeriodStart
+                        data = {'entry_point': entry_point, "date_report": data['date_report'],
+                                'name_parametr_ref': '$par:refPeriodStart', 'work_date': refPeriodStart_date}
+                        write_path(data)
+
+                    if key == 'refPeriodEnd':
+                        data = refPeriodEnd(month)
+                        obj.refPeriodEnd = data['refPeriodEnd']
+                        entry_point = obj.entry_point
+                        refPeriodEnd_date = obj.refPeriodEnd
+                        data = {'entry_point': entry_point, "date_report": data['date_report'],
+                                'name_parametr_ref': '$par:refPeriodEnd', 'work_date': refPeriodEnd_date}
+                        write_path(data)
+
+                    if key == 'CurrentPeriodStart':
+                        data = CurrentPeriodStart(month)
+                        obj.CurrentPeriodStart = data['CurrentPeriodStart']
+                        entry_point = obj.entry_point
+                        CurrentPeriodStart_date = obj.CurrentPeriodStart
+                        data = {'entry_point': entry_point, "date_report": data['date_report'],
+                                'name_parametr_ref': '$par:CurrentPeriodStart',
+                                'work_date': CurrentPeriodStart_date}
+                        write_path(data)
 
                     if key == 'CurrentPeriodEnd':
                         data = CurrentPeriodEnd(month)
@@ -85,5 +137,92 @@ def entry_point (month):
                         CurrentPeriodEnd_date = obj.CurrentPeriodEnd
                         data = {'entry_point': entry_point, "date_report": data['date_report'],
                                 'name_parametr_ref': '$par:CurrentPeriodEnd', 'work_date': CurrentPeriodEnd_date}
+                        write_path(data)
+
+                    if key == 'startRepYear':
+                        data = startRepYear(month)
+                        obj.startRepYear = data['startRepYear']
+                        entry_point = obj.entry_point
+                        startRepYear_date = obj.startRepYear
+                        data = {'entry_point': entry_point, "date_report": data['date_report'],
+                                'name_parametr_ref': '$par:startRepYear', 'work_date': startRepYear_date}
+                        write_path(data)
+                    if key == 'startQuart':
+                        data = startQuart(month)
+                        obj.startQuart = data['startQuart']
+                        entry_point = obj.entry_point
+                        startQuart_date = obj.startQuart
+                        data = {'entry_point': entry_point, "date_report": data['date_report'],
+                                'name_parametr_ref': '$par:startQuart', 'work_date': startQuart_date}
+                        write_path(data)
+        if 'year_obj' in obj.period:
+            if month in [12]:
+                for key, value in obj.__dict__.items():
+                    if key == 'refPeriodStart' and value is None:
+                        continue
+                    if key == 'refPeriodEnd' and value is None:
+                        continue
+                    if key == 'CurrentPeriodStart' and value is None:
+                        continue
+                    if key == 'CurrentPeriodEnd' and value is None:
+                        continue
+                    if key == 'startRepYear' and value is None:
+                        continue
+                    if key == 'startQuart' and value is None:
+                        continue
+
+                    if key == 'refPeriodStart':
+                        data = refPeriodStart(month)
+                        obj.refPeriodStart = data['refPeriodStart']
+                        entry_point = obj.entry_point
+                        refPeriodStart_date = obj.refPeriodStart
+                        data = {'entry_point': entry_point, "date_report": data['date_report'],
+                                'name_parametr_ref': '$par:refPeriodStart', 'work_date': refPeriodStart_date}
+                        write_path(data)
+
+                    if key == 'refPeriodEnd':
+                        data = refPeriodEnd(month)
+                        obj.refPeriodEnd = data['refPeriodEnd']
+                        entry_point = obj.entry_point
+                        refPeriodEnd_date = obj.refPeriodEnd
+                        data = {'entry_point': entry_point, "date_report": data['date_report'],
+                                'name_parametr_ref': '$par:refPeriodEnd', 'work_date': refPeriodEnd_date}
+                        write_path(data)
+
+                    if key == 'CurrentPeriodStart':
+                        data = CurrentPeriodStart(month)
+                        obj.CurrentPeriodStart = data['CurrentPeriodStart']
+                        entry_point = obj.entry_point
+                        CurrentPeriodStart_date = obj.CurrentPeriodStart
+                        data = {'entry_point': entry_point, "date_report": data['date_report'],
+                                'name_parametr_ref': '$par:CurrentPeriodStart',
+                                'work_date': CurrentPeriodStart_date}
+                        write_path(data)
+
+                    if key == 'CurrentPeriodEnd':
+                        data = CurrentPeriodEnd(month)
+                        obj.CurrentPeriodEnd = data['CurrentPeriodEnd']
+                        entry_point = obj.entry_point
+                        CurrentPeriodEnd_date = obj.CurrentPeriodEnd
+                        data = {'entry_point': entry_point, "date_report": data['date_report'],
+                                'name_parametr_ref': '$par:CurrentPeriodEnd', 'work_date': CurrentPeriodEnd_date}
+                        write_path(data)
+
+                    if key == 'startRepYear':
+                        data = startRepYear(month)
+                        obj.startRepYear = data['startRepYear']
+                        entry_point = obj.entry_point
+                        startRepYear_date = obj.startRepYear
+                        data = {'entry_point': entry_point, "date_report": data['date_report'],
+                                'name_parametr_ref': '$par:startRepYear', 'work_date': startRepYear_date}
+                        write_path(data)
+
+                    if key == 'startQuart':
+                        data = startQuart(month)
+                        obj.startQuart = data['startQuart']
+                        entry_point = obj.entry_point
+                        startQuart_date = obj.startQuart
+                        data = {'entry_point': entry_point, "date_report": data['date_report'],
+                                'name_parametr_ref': '$par:startQuart', 'work_date': startQuart_date}
                         write_path(data)
             # print(f"Entry(entry_point={obj.entry_point}, period={obj.period}, refPeriodEnd={obj.refPeriodEnd}, refPeriodStart={obj.refPeriodStart}, CurrentPeriodEnd={obj.CurrentPeriodEnd}, CurrentPeriodStart={obj.CurrentPeriodStart}, startRepYear={obj.startRepYear}, startQuart={obj.startQuart})")
