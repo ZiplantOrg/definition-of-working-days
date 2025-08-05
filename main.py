@@ -6,7 +6,7 @@ from generator_date.refPeriodEnd import refPeriodEnd
 from params_input import file_path
 
 # Этот скрипт предначзанчен для вычисления рабочих дат для НФО УК,УК_СПЕЦ_ДЕП,АИФ_УК
-#Перед Запуском заполнить params_input!!!! версию таксономии, по выходным дням json
+#Перед Запуском заполнить params_input.py!!!! версию таксономии, по выходным дням json
 def main():
     # 1 cозадть папку и файл настройка рабочих дат.conf
     mkdir_folder()
