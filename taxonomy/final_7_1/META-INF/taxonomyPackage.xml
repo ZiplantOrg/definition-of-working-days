@@ -1,0 +1,853 @@
+﻿<?xml version="1.0"?>
+<tp:taxonomyPackage xmlns:tp="http://xbrl.org/2016/taxonomy-package" xml:lang="ru">
+  <tp:identifier>http://www.cbr.ru/xbrl/2025-12-30.zip</tp:identifier>
+  <tp:name>Таксономия XBRL Банка России версия 7.1 (финальная корректировочная)</tp:name>
+  <tp:version>7.1</tp:version>
+    <tp:entryPoints>
+	 <tp:entryPoint>
+	   <tp:name>ep_JTINS_10rd_0420162_y</tp:name>      
+	   <tp:description>Общества взаимного страхования. Статистическая отчетность, представляемая в течение 10 рабочих дней после отчетной даты. Отчетность на конец года, квартала (4 квартал), месяца (декабрь)</tp:description>   
+	   <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/ins/rep/2025-12-30/ep/ep_JTINS_10rd_0420162_y.xsd"/>    
+	 </tp:entryPoint>
+	 <tp:entryPoint>
+	   <tp:name>ep_JTINS_10rd_sr_q</tp:name>      
+	   <tp:description>Общества взаимного страхования. Надзорно-статистическая отчетность, представляемая в течение 10 рабочих дней после отчетной даты. Отчетность на конец квартала (кроме 4-го), месяца (март, июнь, сентябрь)</tp:description>      
+	   <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/ins/rep/2025-12-30/ep/ep_JTINS_10rd_sr_q.xsd"/>    
+	 </tp:entryPoint>
+	 <tp:entryPoint>
+	   <tp:name>ep_JTINS_10rd_sr_y</tp:name>      
+	   <tp:description>Общества взаимного страхования. Отчетность в порядке надзора, представляемая в течение 10 рабочих дней после отчетной даты. Отчетность на конец года, квартала (4 квартал), месяца (декабрь)</tp:description>
+	   <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/ins/rep/2025-12-30/ep/ep_JTINS_10rd_sr_y.xsd"/>    
+	 </tp:entryPoint>
+	 <tp:entryPoint>
+	   <tp:name>ep_JTINS_10rd_sr_m</tp:name>      
+	   <tp:description>Общества взаимного страхования. Отчетность в порядке надзора, представляемая в течение 10 рабочих дней после отчетной даты. Отчетность на конец месяца (кроме марта, июня, сентября, декабря)</tp:description>      
+	   <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/ins/rep/2025-12-30/ep/ep_JTINS_10rd_sr_m.xsd"/>    
+	 </tp:entryPoint>
+	 <tp:entryPoint>      
+	   <tp:name>ep_JTINS_35rd_sr_y</tp:name>      
+	   <tp:description>Общества взаимного страхования. Отчетность в порядке надзора, представляемая в течение 35 рабочих дней после отчетной даты. Отчетность на конец года, квартала (4 квартал), месяца (декабрь)</tp:description>      
+	   <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/ins/rep/2025-12-30/ep/ep_JTINS_35rd_sr_y.xsd"/>    
+	 </tp:entryPoint>
+	 <tp:entryPoint>      
+	   <tp:name>ep_JTINS_r_r</tp:name>      
+	   <tp:description>Общества взаимного страхования. Нерегулярная отчетность. Нерегулярная отчетность</tp:description>      
+	   <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/ins/rep/2025-12-30/ep/ep_JTINS_r_r.xsd"/>    
+	 </tp:entryPoint>
+	 <tp:entryPoint>      
+	   <tp:name>ep_JTINS_5rd_r_r</tp:name>      
+	   <tp:description>Общества взаимного страхования. Надзорная отчетность, представляемая в течение 5 рабочих дней. Нерегулярная отчетность.  </tp:description>      
+	   <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/ins/rep/2025-12-30/ep/ep_JTINS_5rd_r_r.xsd"/>    
+	 </tp:entryPoint>
+	 <tp:entryPoint>      
+	   <tp:name>ep_JTINS_0420151_r_r</tp:name>      
+	   <tp:description>Общества взаимного страхования. Надзорная отчетность (только форма 0420151). Нерегулярная отчетность. </tp:description>      
+	   <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/ins/rep/2025-12-30/ep/ep_JTINS_0420151_r_r.xsd"/>    
+	 </tp:entryPoint>
+	 <tp:entryPoint>      
+	   <tp:name>ep_SMOOMS_10rd_0420162_y</tp:name>      
+	   <tp:description>Страховые организации, занимающиеся исключительно обязательным медицинским страхованием. Статистическая отчетность, представляемая в течение 10 рабочих дней после отчетной даты. Отчетность на конец года, квартала (4 квартал), месяца (декабрь)</tp:description>      
+	   <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/ins/rep/2025-12-30/ep/ep_SMOOMS_10rd_0420162_y.xsd"/>    
+	 </tp:entryPoint>
+	 <tp:entryPoint>      
+	   <tp:name>ep_SMOOMS_10rd_sr_m</tp:name>      
+	   <tp:description>Страховые организации, занимающиеся исключительно обязательным медицинским страхованием. Отчетность в порядке надзора, представляемая в течение 10 рабочих дней после отчетной даты. Отчетность на конец месяца (кроме марта, июня, сентября, декабря)</tp:description>      
+	   <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/ins/rep/2025-12-30/ep/ep_SMOOMS_10rd_sr_m.xsd"/>    
+	 </tp:entryPoint>
+	 <tp:entryPoint>      
+	   <tp:name>ep_SMOOMS_10rd_sr_q</tp:name>      
+	   <tp:description>Страховые организации, занимающиеся исключительно обязательным медицинским страхованием. Надзорно-статистическая отчетность, представляемая в течение 10 рабочих дней после отчетной даты. Отчетность на конец квартала (кроме 4-го), месяца (март, июнь, сентябрь)</tp:description>      
+	   <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/ins/rep/2025-12-30/ep/ep_SMOOMS_10rd_sr_q.xsd"/>    
+	 </tp:entryPoint>
+	 <tp:entryPoint>      
+	   <tp:name>ep_SMOOMS_10rd_sr_y</tp:name>      
+	   <tp:description>Страховые организации, занимающиеся исключительно обязательным медицинским страхованием. Отчетность в порядке надзора, представляемая в течение 10 рабочих дней после отчетной даты. Отчетность на конец года, квартала (4 квартал), месяца (декабрь)</tp:description>      
+	   <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/ins/rep/2025-12-30/ep/ep_SMOOMS_10rd_sr_y.xsd"/>    
+	 </tp:entryPoint>
+	 <tp:entryPoint>      
+	   <tp:name>ep_SMOOMS_35rd_sr_y</tp:name>      
+	   <tp:description>Страховые организации, занимающиеся исключительно обязательным медицинским страхованием. Отчетность в порядке надзора, представляемая в течение 35 рабочих дней после отчетной даты. Отчетность на конец года, квартала (4 квартал), месяца (декабрь)</tp:description>      
+	   <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/ins/rep/2025-12-30/ep/ep_SMOOMS_35rd_sr_y.xsd"/>    
+	 </tp:entryPoint>
+	 <tp:entryPoint>      
+	   <tp:name>ep_SMOOMS_r_r</tp:name>      
+	   <tp:description>Страховые организации, занимающиеся исключительно обязательным медицинским страхованием. Нерегулярная отчетность. Нерегулярная отчетность</tp:description>      
+	   <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/ins/rep/2025-12-30/ep/ep_SMOOMS_r_r.xsd"/>    
+	 </tp:entryPoint>
+	 <tp:entryPoint>      
+      <tp:name>ep_SMOOMS_15rd_sr_q</tp:name>      
+      <tp:description>Страховые организации, занимающиеся исключительно обязательным медицинским страхованием.  Надзорная отчетность, представляемая в течение 15 рабочих дней (только форма 0420174). Отчетность на конец квартала (кроме декабря и 4 квартала)</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/ins/rep/2025-12-30/ep/ep_SMOOMS_15rd_sr_q.xsd"/>    
+	 </tp:entryPoint>
+	 <tp:entryPoint>      
+      <tp:name>ep_SMOOMS_31d_sr_y</tp:name>      
+      <tp:description>Страховые организации, занимающиеся исключительно обязательным медицинским страхованием. Надзорная отчетность, представляемая в течение 31 календарного дня (только форма 0420174). Отчетность на конец года, квартала (4 квартал), месяца (декабрь)</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/ins/rep/2025-12-30/ep/ep_SMOOMS_31d_sr_y.xsd"/>    
+	 </tp:entryPoint>	
+	 <tp:entryPoint>
+      <tp:name>ep_SMOOMS_30rd_r_r</tp:name>
+	  <tp:description>Страховые организации, занимающиеся исключительно обязательным медицинским страхованием. Надзорная отчетность, представляемая в течение 30 рабочих дней (только форма 0420175). Нерегулярная отчетность</tp:description>
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/ins/rep/2025-12-30/ep/ep_SMOOMS_30rd_r_r.xsd"/>    
+	 </tp:entryPoint>
+	 <tp:entryPoint>
+      <tp:name>ep_SMOOMS_5rd_r_r</tp:name>
+	  <tp:description>Страховые организации, занимающиеся исключительно обязательным медицинским страхованием. Надзорная отчетность, представляемая в течение 5 рабочих дней. Нерегулярная отчетность </tp:description>
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/ins/rep/2025-12-30/ep/ep_SMOOMS_5rd_r_r.xsd"/>    
+	 </tp:entryPoint>
+	 <tp:entryPoint>
+      <tp:name>ep_SMOOMS_0420151_r_r</tp:name>
+	  <tp:description>Страховые организации, занимающиеся исключительно обязательным медицинским страхованием. Надзорная отчетность (только форма 0420151). Нерегулярная отчетность </tp:description>
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/ins/rep/2025-12-30/ep/ep_SMOOMS_0420151_r_r.xsd"/>    
+	 </tp:entryPoint>
+	 <tp:entryPoint>      
+	   <tp:name>ep_SSDNEMED_10rd_0420162_y</tp:name>      
+	   <tp:description>Страховые организации, не занимающиеся исключительно обязательным медицинским страхованием. Статистическая отчетность, представляемая в течение 10 рабочих дней после отчетной даты. Отчетность на конец года, квартала (4 квартал), месяца (декабрь)</tp:description>      
+	   <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/ins/rep/2025-12-30/ep/ep_SSDNEMED_10rd_0420162_y.xsd"/>    
+	 </tp:entryPoint>
+	 <tp:entryPoint>      
+	   <tp:name>ep_SSDNEMED_10rd_sr_m</tp:name>      
+	   <tp:description>Страховые организации, не занимающиеся исключительно обязательным медицинским страхованием. Отчетность в порядке надзора, представляемая в течение 10 рабочих дней после отчетной даты. Отчетность на конец месяца (кроме марта, июня, сентября, декабря)</tp:description>      
+	   <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/ins/rep/2025-12-30/ep/ep_SSDNEMED_10rd_sr_m.xsd"/>    
+	 </tp:entryPoint>
+	 <tp:entryPoint>      
+	   <tp:name>ep_SSDNEMED_10rd_sr_q</tp:name>      
+	   <tp:description>Страховые организации, не занимающиеся исключительно обязательным медицинским страхованием. Надзорно-статистическая отчетность, представляемая в течение 10 рабочих дней после отчетной даты. Отчетность на конец квартала (кроме 4-го), месяца (март, июнь, сентябрь)</tp:description>      
+	   <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/ins/rep/2025-12-30/ep/ep_SSDNEMED_10rd_sr_q.xsd"/>    
+	 </tp:entryPoint>
+	 <tp:entryPoint>      
+	   <tp:name>ep_SSDNEMED_10rd_sr_y</tp:name>      
+	   <tp:description>Страховые организации, не занимающиеся исключительно обязательным медицинским страхованием. Отчетность в порядке надзора, представляемая в течение 10 рабочих дней после отчетной даты. Отчетность на конец года, квартала (4 квартал), месяца (декабрь)</tp:description>      
+	   <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/ins/rep/2025-12-30/ep/ep_SSDNEMED_10rd_sr_y.xsd"/>    
+	 </tp:entryPoint>
+	 <tp:entryPoint>      
+	   <tp:name>ep_SSDNEMED_35rd_sr_y</tp:name>      
+	   <tp:description>Страховые организации, не занимающиеся исключительно обязательным медицинским страхованием. Отчетность в порядке надзора, представляемая в течение 35 рабочих дней после отчетной даты. Отчетность на конец года, квартала (4 квартал), месяца (декабрь)</tp:description>      
+	   <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/ins/rep/2025-12-30/ep/ep_SSDNEMED_35rd_sr_y.xsd"/>    
+	 </tp:entryPoint>
+	 <tp:entryPoint>      
+	   <tp:name>ep_SSDNEMED_r_r</tp:name>      
+	   <tp:description>Страховые организации, не занимающиеся исключительно обязательным медицинским страхованием. Нерегулярная отчетность. Нерегулярная отчетность</tp:description>      
+	   <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/ins/rep/2025-12-30/ep/ep_SSDNEMED_r_r.xsd"/>    
+	 </tp:entryPoint> 
+	 <tp:entryPoint>      
+      <tp:name>ep_SSDNEMED_15rd_sr_q</tp:name>      
+      <tp:description>Страховые организации, не занимающиеся исключительно обязательным медицинским страхованием. Надзорная отчетность, представляемая в течение 15 рабочих дней (только форма 0420174). Отчетность на конец квартала (кроме декабря и 4 квартала)</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/ins/rep/2025-12-30/ep/ep_SSDNEMED_15rd_sr_q.xsd"/>    
+	 </tp:entryPoint>
+	 <tp:entryPoint>      
+      <tp:name>ep_SSDNEMED_31d_sr_y</tp:name>      
+      <tp:description>Страховые организации, не занимающиеся исключительно обязательным медицинским страхованием. Надзорная отчетность, представляемая в течение 31 календарного дня (только форма 0420174). Отчетность на конец года, квартала (4 квартал), месяца (декабрь)</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/ins/rep/2025-12-30/ep/ep_SSDNEMED_31d_sr_y.xsd"/>    
+	 </tp:entryPoint>	
+    <tp:entryPoint>
+      <tp:name>ep_SSDNEMED_30rd_r_r</tp:name>
+      <tp:description>Страховые организации, не занимающиеся исключительно обязательным медицинским страхованием. Надзорная отчетность, представляемая в течение 30 рабочих дней (только форма 0420175). Нерегулярная отчетность</tp:description>
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/ins/rep/2025-12-30/ep/ep_SSDNEMED_30rd_r_r.xsd"/>    
+     </tp:entryPoint>
+	 <tp:entryPoint>
+      <tp:name>ep_SSDNEMED_5rd_r_r</tp:name>
+      <tp:description>Страховые организации, не занимающиеся исключительно обязательным медицинским страхованием. Надзорная отчетность, представляемая в течение 5 рабочих дней. Нерегулярная отчетность </tp:description>
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/ins/rep/2025-12-30/ep/ep_SSDNEMED_5rd_r_r.xsd"/>    
+     </tp:entryPoint>
+	 <tp:entryPoint>
+      <tp:name>ep_SSDNEMED_0420151_r_r</tp:name>
+      <tp:description>Страховые организации, не занимающиеся исключительно обязательным медицинским страхованием. Надзорная отчетность(только форма 0420151). Нерегулярная отчетность</tp:description>
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/ins/rep/2025-12-30/ep/ep_SSDNEMED_0420151_r_r.xsd"/>    
+     </tp:entryPoint>
+	 <tp:entryPoint>
+      <tp:name>ep_nso_ISO_5rd_r_r</tp:name>
+      <tp:description>Иностранные страховые организации. Надзорная отчетность, представляемая в течение 5 рабочих дней. Нерегулярная отчетность</tp:description>
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/ins/rep/2025-12-30/ep/ep_nso_ISO_5rd_r_r.xsd"/>    
+     </tp:entryPoint>
+	 <tp:entryPoint>
+      <tp:name>ep_nso_ISO_10rd_0420162_y</tp:name>
+      <tp:description>Иностранные страховые организации. Статистическая отчетность, представляемая в течение 10 рабочих дней после отчетной даты. Отчетность на конец года, квартала (4 квартал), месяца (декабрь)</tp:description>
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/ins/rep/2025-12-30/ep/ep_nso_ISO_10rd_0420162_y.xsd"/>    
+     </tp:entryPoint>
+	<tp:entryPoint>
+      <tp:name>ep_nso_ISO_10rd_sr_q</tp:name>
+      <tp:description>Иностранные страховые организации. Надзорно-статистическая отчетность, представляемая в течение 10 рабочих дней после отчетной даты. Отчетность на конец квартала (кроме 4-го), месяца (март, июнь, сентябрь)</tp:description>
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/ins/rep/2025-12-30/ep/ep_nso_ISO_10rd_sr_q.xsd"/>    
+     </tp:entryPoint>
+	 <tp:entryPoint>
+      <tp:name>ep_nso_ISO_10rd_sr_y</tp:name>
+      <tp:description>Иностранные страховые организации. Отчетность в порядке надзора, представляемая в течение 10 рабочих дней после отчетной даты. Отчетность на конец года, квартала (4 квартал), месяца (декабрь)</tp:description>
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/ins/rep/2025-12-30/ep/ep_nso_ISO_10rd_sr_y.xsd"/>    
+     </tp:entryPoint>
+     <tp:entryPoint>
+      <tp:name>ep_nso_ISO_35rd_sr_y</tp:name>
+      <tp:description>Иностранные страховые организации. Отчетность в порядке надзора, представляемая в течение 35 рабочих дней после отчетной даты. Отчетность на конец года, квартала (4 квартал), месяца (декабрь)</tp:description>
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/ins/rep/2025-12-30/ep/ep_nso_ISO_35rd_sr_y.xsd"/>    
+     </tp:entryPoint>	
+     <tp:entryPoint>
+      <tp:name>ep_nso_ins_nonreg_dop</tp:name>
+      <tp:description>Страховщики. Точка входа для представления отчетности по запросу (при необходимости). Нерегулярная отчетность </tp:description>
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/ins/rep/2025-12-30/ep/ep_nso_ins_nonreg_dop.xsd"/>    
+     </tp:entryPoint>
+	<tp:entryPoint>      
+	  <tp:name>ep_nso_purcb_w_7d</tp:name>      
+	  <tp:description>Профессиональные участники рынка ценных бумаг, организаторы торговли и клиринговые организации. Отчетность, представляемая в течение 1 рабочего дня после окончания отчетной недели. Отчетность на последний календарный день недели</tp:description>      
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/purcb/rep/2025-12-30/ep/ep_nso_purcb_w_7d.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+	  <tp:name>ep_nso_purcb_m_10rd_ex_reestr_0420417</tp:name>      
+	  <tp:description>Профессиональные участники рынка ценных бумаг. Отчетность, представляемая в течение 10 рабочих дней после отчетной даты. Отчетность на конец месяца (кроме марта, июня, сентября, декабря) (За исключением реестровой формы 0420417) </tp:description>      
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/purcb/rep/2025-12-30/ep/ep_nso_purcb_m_10rd_ex_reestr_0420417.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+	  <tp:name>ep_nso_purcb_m_10rd_ex_reestr_0420417_mal</tp:name>      
+	  <tp:description>Профессиональные участники рынка ценных бумаг, за исключением имеющих лицензию на осуществление деятельности форекс-дилера (только малые). Отчетность, представляемая в течение 10 рабочих дней после отчетной даты. Отчетность на конец месяца (кроме марта, июня, сентября, декабря) (За исключением реестровой формы 0420417) </tp:description>      
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/purcb/rep/2025-12-30/ep/ep_nso_purcb_m_10rd_ex_reestr_0420417_mal.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+	  <tp:name>ep_nso_purcb_m_10rd_ex_reestr_0420417_ex_mal</tp:name>      
+	  <tp:description>Профессиональные участники рынка ценных бумаг (только крупные и средние), а также имеющие лицензию на осуществление деятельности форекс-дилера, деятельности по инвестиционному консультированию. Отчетность, представляемая в течение 10 рабочих дней после отчетной даты. Отчетность на конец месяца (кроме марта, июня, сентября, декабря) (За исключением реестровой формы 0420417) </tp:description>      
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/purcb/rep/2025-12-30/ep/ep_nso_purcb_m_10rd_ex_reestr_0420417_ex_mal.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+	  <tp:name>ep_nso_purcb_m_10rd_OrgTorg_Clearing</tp:name>      
+	  <tp:description>Организаторы торговли и клиринговые организации. Отчетность, представляемая в течение 10 рабочих дней после отчетной даты. Отчетность на конец месяца (кроме марта, июня, сентября, декабря)</tp:description>      
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/purcb/rep/2025-12-30/ep/ep_nso_purcb_m_10rd_OrgTorg_Clearing.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+	  <tp:name>ep_nso_purcb_m_q_y_10rd_reestr_0420417</tp:name>      
+	  <tp:description>Профессиональные участники рынка ценных бумаг. Отчетность, представляемая в течение 10 рабочих дней после отчетной даты. Отчетность на конец месяца, квартала, года (Только реестровая форма 0420417) </tp:description>
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/purcb/rep/2025-12-30/ep/ep_nso_purcb_m_q_y_10rd_reestr_0420417.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+	  <tp:name>ep_nso_purcb_m_q_y_10rd_ex_reestr_0420417</tp:name>      
+	  <tp:description>Профессиональные участники рынка ценных бумаг. Отчетность, представляемая в течение 10 рабочих дней после отчетной даты. Отчетность на конец месяца (март, июнь, сентябрь, декабрь), квартала, года (За исключением реестровой формы 0420417)</tp:description>      
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/purcb/rep/2025-12-30/ep/ep_nso_purcb_m_q_y_10rd_ex_reestr_0420417.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+	  <tp:name>ep_nso_purcb_m_q_10rd_ex_reestr_0420417_mal</tp:name>      
+	  <tp:description>Профессиональные участники рынка ценных бумаг, за исключением имеющих лицензию на осуществление деятельности форекс-дилера (только малые). Отчетность, представляемая в течение 10 рабочих дней после отчетной даты. Отчетность на конец квартала (кроме 4-го), месяца (март, июнь, сентябрь) (За исключением реестровой формы 0420417)</tp:description>      
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/purcb/rep/2025-12-30/ep/ep_nso_purcb_m_q_10rd_ex_reestr_0420417_mal.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+	  <tp:name>ep_nso_purcb_m_q_y_10rd_ex_reestr_0420417_ex_mal</tp:name>      
+	  <tp:description>Профессиональные участники рынка ценных бумаг (только крупные и средние), а также имеющие лицензию на осуществление деятельности форекс-дилера, деятельности по инвестиционному консультированию. Отчетность, представляемая в течение 10 рабочих дней после отчетной даты. Отчетность на конец месяца (март, июнь, сентябрь, декабрь), квартала, года (За исключением реестровой формы 0420417)</tp:description>      
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/purcb/rep/2025-12-30/ep/ep_nso_purcb_m_q_y_10rd_ex_reestr_0420417_ex_mal.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+	  <tp:name>ep_nso_purcb_m_q_y_10rd_OrgTorg_Clearing</tp:name>      
+	  <tp:description>Организаторы торговли и клиринговые организации. Отчетность, представляемая в течение 10 рабочих дней после отчетной даты. Отчетность на конец месяца (март, июнь, сентябрь, декабрь), квартала, года </tp:description>      
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/purcb/rep/2025-12-30/ep/ep_nso_purcb_m_q_y_10rd_OrgTorg_Clearing.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+	  <tp:name>ep_nso_purcb_y_10rd_ex_reestr_0420417_mal</tp:name>      
+	  <tp:description>Профессиональные участники рынка ценных бумаг, за исключением имеющих лицензию на осуществление деятельности форекс-дилера (только малые). Отчетность, представляемая в течение 10 рабочих дней после отчетной даты. Отчетность на конец года, квартала (4 квартал), месяца (декабря) (За исключением реестровой формы 0420417)</tp:description>      
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/purcb/rep/2025-12-30/ep/ep_nso_purcb_y_10rd_ex_reestr_0420417_mal.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+	  <tp:name>ep_nso_purcb_m_30d</tp:name>      
+	  <tp:description>Профессиональные участники рынка ценных бумаг. Отчетность, представляемая в течение 30 календарных дней после отчетной даты. Отчетность на конец месяца (кроме марта, июня, сентября, декабря)</tp:description>      
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/purcb/rep/2025-12-30/ep/ep_nso_purcb_m_30d.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+	  <tp:name>ep_nso_purcb_m_30d_ex_mal</tp:name>      
+	  <tp:description>Профессиональные участники рынка ценных бумаг (только крупные и средние), а также имеющие лицензию на осуществление деятельности форекс-дилера, деятельности по инвестиционному консультированию.Отчетность, представляемая в течение 30 календарных дней после отчетной даты. Отчетность на конец месяца (кроме марта, июня, сентября, декабря)</tp:description>      
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/purcb/rep/2025-12-30/ep/ep_nso_purcb_m_30d_ex_mal.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+	  <tp:name>ep_nso_purcb_m_q_30d</tp:name>      
+	  <tp:description>Профессиональные участники рынка ценных бумаг, организаторы торговли и клиринговые организации. Отчетность, представляемая в течение 30 календарных дней после отчетной даты. Отчетность на конец месяца (март, июнь, сентябрь), квартала (кроме 4-го)</tp:description>      
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/purcb/rep/2025-12-30/ep/ep_nso_purcb_m_q_30d.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+	  <tp:name>ep_nso_purcb_m_q_30d_mal</tp:name>      
+	  <tp:description>Профессиональные участники рынка ценных бумаг, за исключением имеющих лицензию на осуществление деятельности форекс-дилера (только малые). Отчетность, представляемая в течение 30 календарных дней после отчетной даты. Отчетность на конец месяца (март, июнь, сентябрь), квартала (кроме 4-го)</tp:description>      
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/purcb/rep/2025-12-30/ep/ep_nso_purcb_m_q_30d_mal.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+	  <tp:name>ep_nso_purcb_m_q_30d_ex_mal</tp:name>      
+	  <tp:description>Профессиональные участники рынка ценных бумаг (только крупные и средние), а также имеющие лицензию на осуществление деятельности форекс-дилера, деятельности по инвестиционному консультированию, организаторы торговли и клиринговые организации. Отчетность, представляемая в течение 30 календарных дней после отчетной даты. Отчетность на конец месяца (март, июнь, сентябрь), квартала (кроме 4-го)</tp:description>      
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/purcb/rep/2025-12-30/ep/ep_nso_purcb_m_q_30d_ex_mal.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+	  <tp:name>ep_nso_purcb_q_y_45d</tp:name>      
+	  <tp:description>Профессиональные участники рынка ценных бумаг, организаторы торговли и клиринговые организации. Отчетность, представляемая в течение 45 календарных дней после отчетной даты. Отчетность на конец года, квартала (4 квартал), месяца (декабрь)</tp:description>      
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/purcb/rep/2025-12-30/ep/ep_nso_purcb_q_y_45d.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+	  <tp:name>ep_nso_purcb_nr</tp:name>      
+	  <tp:description>Профессиональные участники рынка ценных бумаг, организаторы торговли и клиринговые организации. Нерегулярная отчетность, представляемая по запросу. Нерегулярная отчетность</tp:description>      
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/purcb/rep/2025-12-30/ep/ep_nso_purcb_nr.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+	  <tp:name>ep_nso_purcb_m_y_30d</tp:name>      
+	  <tp:description>Профессиональные участники рынка ценных бумаг, организаторы торговли и клиринговые организации. Отчетность, представляемая в течение 30 календарных дней после отчетной даты. Отчетность на конец года, квартала (4 квартал), месяца (декабря)</tp:description>      
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/purcb/rep/2025-12-30/ep/ep_nso_purcb_m_y_30d.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+	  <tp:name>ep_nso_purcb_m_y_30d_mal</tp:name>      
+	  <tp:description>Профессиональные участники рынка ценных бумаг, за исключением имеющих лицензию на осуществление деятельности форекс-дилера (только малые). Отчетность, представляемая в течение 30 календарных дней после отчетной даты. Отчетность на конец года, квартала (4 квартал), месяца (декабря)</tp:description>      
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/purcb/rep/2025-12-30/ep/ep_nso_purcb_m_y_30d_mal.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+	  <tp:name>ep_nso_purcb_m_y_30d_ex_mal</tp:name>      
+	  <tp:description>Профессиональные участники рынка ценных бумаг (только крупные и средние), а также имеющие лицензию на осуществление деятельности форекс-дилера, деятельности по инвестиционному консультированию.Отчетность, представляемая в течение 30 календарных дней после отчетной даты. Отчетность на конец года, квартала (4 квартал), месяца (декабря)</tp:description>      
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/purcb/rep/2025-12-30/ep/ep_nso_purcb_m_y_30d_ex_mal.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+	  <tp:name>ep_nso_purcb_nr_5rd</tp:name>      
+	  <tp:description>Профессиональные участники рынка ценных бумаг, организаторы торговли и клиринговые организации. Надзорная отчетность, представляемая в течение 5 рабочих дней. Нерегулярная отчетность</tp:description>     
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/purcb/rep/2025-12-30/ep/ep_nso_purcb_nr_5rd.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+	  <tp:name>ep_nso_purcb_q_15rd</tp:name>      
+	  <tp:description>Профессиональные участники рынка ценных бумаг, организаторы торговли и клиринговые организации. Надзорная отчетность, представляемая в течение 15 рабочих дней (только форма 0420432). Отчетность на конец квартала (кроме декабря и 4 квартала)</tp:description>      
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/purcb/rep/2025-12-30/ep/ep_nso_purcb_q_15rd.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+	  <tp:name>ep_nso_purcb_y_31d</tp:name>      
+	  <tp:description>Профессиональные участники рынка ценных бумаг, организаторы торговли и клиринговые организации. Надзорная отчетность, представляемая в течение 31 календарного дня (только форма 0420432). Отчетность на конец года, квартала (4 квартал), месяца (декабрь)</tp:description>      
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/purcb/rep/2025-12-30/ep/ep_nso_purcb_y_31d.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+	  <tp:name>ep_nso_purcb_nr_30rd</tp:name>      
+	  <tp:description>Профессиональные участники рынка ценных бумаг, организаторы торговли и клиринговые организации. Надзорная отчетность, представляемая в течение 30 рабочих дней (только форма 0420433). Нерегулярная отчетность</tp:description>      
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/purcb/rep/2025-12-30/ep/ep_nso_purcb_nr_30rd.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+	  <tp:name>ep_nso_purcb_h_y_10rd</tp:name>      
+	  <tp:description>Профессиональные участники рынка ценных бумаг. Отчетность, представляемая в течение 10 рабочих дней после отчетной даты (Только формы 0420451, 0420452). Отчетность на конец полугодия, года</tp:description>      
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/purcb/rep/2025-12-30/ep/ep_nso_purcb_h_y_10rd.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+	  <tp:name>ep_nso_purcb_m_q_y_17rd_0420416</tp:name>      
+	  <tp:description>Профессиональные участники рынка ценных бумаг. Отчетность, представляемая в течение 17 рабочих дней после отчетной даты (Только форма 0420416). Отчетность на конец месяца, квартала, года</tp:description>      
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/purcb/rep/2025-12-30/ep/ep_nso_purcb_m_q_y_17rd_0420416.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+	  <tp:name>ep_nso_purcb_y_105d</tp:name>      
+	  <tp:description>Профессиональные участники рынка ценных бумаг, организаторы торговли и клиринговые организации. Надзорная отчетность, представляемая в течение 105 календарных дней. Отчетность на конец года</tp:description>      
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/purcb/rep/2025-12-30/ep/ep_nso_purcb_y_105d.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>
+      <tp:name>support_ep_all_nso_purcb</tp:name>
+      <tp:description>Справочно - все раскрытия НСО ПУРЦБ</tp:description>
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/purcb/rep/2025-12-30/ep/support_ep_all_nso_purcb.xsd"/>
+    </tp:entryPoint>
+	<tp:entryPoint>
+      <tp:name>support_ep_all_nso_uk</tp:name>
+      <tp:description>Справочно - все раскрытия НСО УК ИФ,ПИФ, НПФ И АИФ</tp:description>
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/uk/rep/2025-12-30/ep/support_ep_all_nso_uk.xsd"/>
+	</tp:entryPoint>
+	<tp:entryPoint>
+      <tp:name>support_ep_all_nso_ins</tp:name>
+      <tp:description>Справочно - все раскрытия НСО ССД</tp:description>
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/ins/rep/2025-12-30/ep/support_ep_all_nso_ins.xsd"/>
+	</tp:entryPoint>
+	<tp:entryPoint>
+      <tp:name>support_ep_all_nso_brk</tp:name>
+      <tp:description>Справочно - все раскрытия НСО страховых брокеров</tp:description>
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/brk/rep/2025-12-30/ep/support_ep_all_nso_brk.xsd"/>
+	</tp:entryPoint>
+    <tp:entryPoint>
+      <tp:name>support_ep_all_nso_operatory</tp:name>
+      <tp:description>Справочно - все раскрытия НСО операторы</tp:description>
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/operatory/rep/2025-12-30/ep/support_ep_all_nso_operatory.xsd"/>
+	</tp:entryPoint>
+	<tp:entryPoint>      
+	  <tp:name>ep_brk_30d_q</tp:name>      
+	  <tp:description>Страховые брокеры. Статистическая отчетность, представляемая в течение 30 дней после отчетной даты. Отчетность на конец квартала (кроме 4-го), месяца (март, июнь, сентябрь).</tp:description>      
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/brk/rep/2025-12-30/ep/ep_brk_30d_q.xsd"/>
+	</tp:entryPoint>
+	<tp:entryPoint>      
+	  <tp:name>ep_brk_nr</tp:name>      
+	  <tp:description>Страховые брокеры. Нерегулярная отчетность.</tp:description>      
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/brk/rep/2025-12-30/ep/ep_brk_nr.xsd"/>
+	</tp:entryPoint>
+	<tp:entryPoint>
+	  <tp:name>ep_brk_30d_y</tp:name>      
+	  <tp:description>Страховые брокеры. Статистическая отчетность, представляемая в течение 30 дней после отчетной даты. Отчетность на конец года, квартала (4 квартал), месяца (декабрь).</tp:description>      
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/brk/rep/2025-12-30/ep/ep_brk_30d_y.xsd"/>
+	</tp:entryPoint>
+	<tp:entryPoint>
+	  <tp:name>ep_brk_60d_y</tp:name>      
+	  <tp:description>Страховые брокеры. Статистическая отчетность, представляемая в течение 60 дней после отчетной даты. Отчетность на конец года, квартала (4 квартал), месяца (декабрь).</tp:description>      
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/brk/rep/2025-12-30/ep/ep_brk_60d_y.xsd"/>
+	</tp:entryPoint>
+<tp:entryPoint>
+	  <tp:name>ep_brk_120d_y</tp:name>      
+	  <tp:description>Страховые брокеры. Статистическая отчетность, представляемая в течение 120 дней после дня окончания календарного года. Отчетность на конец года.</tp:description>      
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/brk/rep/2025-12-30/ep/ep_brk_120d_y.xsd"/>
+	</tp:entryPoint>	
+	<tp:entryPoint>      
+	  <tp:name>ep_nso_brk_m_q_y_15rd_ods</tp:name>      
+	  <tp:description>Страховые брокеры. Отчетность по форме 0420011, представляемая в течение 15 рабочих дней. Отчетность на конец месяца, квартала, года. </tp:description>      
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/nfo/rep/2025-12-30/ep/ep_nso_brk_m_q_y_15rd_ods.xsd"/>
+	</tp:entryPoint>	
+	<tp:entryPoint>      
+	  <tp:name>ep_nso_nfo_y_120d</tp:name>      
+	  <tp:description>Некредитные финансовые организации, имеющие обязанность по представлению в Банк России годовой консолидированной финансовой отчетности. Годовая консолидированная финансовая отчетность, включая сопроводительное письмо (для целей представления пакета годовой консолидированной финансовой отчетности).Отчетность на конец года (4 квартал) (декабрь)</tp:description>      
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/nfo/rep/2025-12-30/ep/ep_nso_nfo_y_120d.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+	  <tp:name>support_ep_all_nso_nfo</tp:name>      
+	  <tp:description>Справочно - все раскрытия отчета о движении средств по счетам (вкладам) в банках за пределами территории Российской Федерации</tp:description>      
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/nfo/rep/2025-12-30/ep/support_ep_all_nso_nfo.xsd"/>    
+	</tp:entryPoint>
+    <tp:entryPoint>      
+      <tp:name>ep_nso_npf_m_10rd</tp:name>      
+      <tp:description>Негосударственные пенсионные фонды. Надзорная отчетность, представляемая в течение 10 рабочих дней. Отчетность на конец месяца (кроме марта, июня, сентября, декабря)</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/npf/rep/2025-12-30/ep/ep_nso_npf_m_10rd.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_npf_m_30d</tp:name>      
+	  <tp:description>Негосударственные пенсионные фонды. Надзорная отчетность, представляемая в течение 30 календарных дней. Отчетность на конец месяца (кроме марта, июня, сентября, декабря)</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/npf/rep/2025-12-30/ep/ep_nso_npf_m_30d.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_npf_m_q_y_15rd_ods</tp:name>      
+      <tp:description>Негосударственные пенсионные фонды. Отчетность по форме 0420011, представляемая в течение 15 рабочих дней. Отчетность на конец месяца, квартала, года</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/nfo/rep/2025-12-30/ep/ep_nso_npf_m_q_y_15rd_ods.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_npf_nr_5rd</tp:name>      
+      <tp:description>Негосударственные пенсионные фонды. Надзорная отчетность, представляемая в течение 5 рабочих дней. Нерегулярная отчетность</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/npf/rep/2025-12-30/ep/ep_nso_npf_nr_5rd.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_npf_0420267_nr_5rd</tp:name>      
+      <tp:description>Негосударственные пенсионные фонды. Надзорная отчетность, представляемая в течение 5 рабочих дней (только форма 0420267). Нерегулярная отчетность</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/npf/rep/2025-12-30/ep/ep_nso_npf_0420267_nr_5rd.xsd"/>    
+	</tp:entryPoint>
+    <tp:entryPoint>      
+      <tp:name>ep_nso_npf_nr_3rd</tp:name>      
+      <tp:description>Негосударственные пенсионные фонды. Надзорная отчетность, представляемая в течение 3 рабочих дней. Нерегулярная отчетность</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/npf/rep/2025-12-30/ep/ep_nso_npf_nr_3rd.xsd"/>    
+	</tp:entryPoint>
+    <tp:entryPoint>      
+      <tp:name>ep_nso_npf_nr_15d</tp:name>
+      <tp:description>Негосударственные пенсионные фонды. Надзорная отчетность, представляемая в течение 15 календарных дней. Нерегулярная отчетность</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/npf/rep/2025-12-30/ep/ep_nso_npf_nr_15d.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>
+     <tp:name>ep_nso_npf_nr_30rd</tp:name>
+     <tp:description>Негосударственные пенсионные фонды. Надзорная отчетность, представляемая в течение 30 рабочих дней (только форма 0420266). Нерегулярная отчетность</tp:description>
+     <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/npf/rep/2025-12-30/ep/ep_nso_npf_nr_30rd.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_npf_q_10rd</tp:name>      
+      <tp:description>Негосударственные пенсионные фонды. Надзорная отчетность, представляемая в течение 10 рабочих дней, на конец квартала. Отчетность на конец квартала (кроме 4-го), месяца (март, июнь, сентябрь)</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/npf/rep/2025-12-30/ep/ep_nso_npf_q_10rd.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_npf_q_15rd</tp:name>      
+      <tp:description>Негосударственные пенсионные фонды. Надзорная отчетность, представляемая в течение 15 рабочих дней, на конец квартала (только форма 0420265). Отчетность на конец квартала (кроме 4-го), месяца (март, июнь, сентябрь)</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/npf/rep/2025-12-30/ep/ep_nso_npf_q_15rd.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_npf_q_30d_ex_reestr</tp:name>      
+      <tp:description>Негосударственные пенсионные фонды. Надзорная отчетность, представляемая в течение 30 календарных дней. Отчетность на конец квартала (кроме 4-го), месяца (март, июнь, сентябрь) (за исключением реестровой формы 0420258)</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/npf/rep/2025-12-30/ep/ep_nso_npf_q_30d_ex_reestr.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_npf_q_30d_reestr_0420258</tp:name>      
+      <tp:description>Негосударственные пенсионные фонды. Надзорная отчетность, представляемая в течение 30 календарных дней. Отчетность на конец квартала (кроме 4-го), месяца (март, июнь, сентябрь)(только реестровая форма 0420258)</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/npf/rep/2025-12-30/ep/ep_nso_npf_q_30d_reestr_0420258.xsd"/>
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_npf_q_30d_specdep</tp:name>      
+      <tp:description>Негосударственные пенсионные фонды. Надзорная отчетность, представляемая в течение 30 календарных дней (для целей подтверждения специализированным депозитарием). Отчетность на конец квартала (кроме 4-го), месяца (март, июнь, сентябрь)</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/npf/rep/2025-12-30/ep/ep_nso_npf_q_30d_specdep.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_npf_y_10rd</tp:name>      
+      <tp:description>Негосударственные пенсионные фонды. Надзорная отчетность, представляемая в течение 10 рабочих дней, на конец года. Отчетность на конец года, квартала (4 квартал), месяца (декабрь)</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/npf/rep/2025-12-30/ep/ep_nso_npf_y_10rd.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_npf_y_30d</tp:name>      
+      <tp:description>Негосударственные пенсионные фонды. Надзорная отчетность, представляемая в течение 30 календарных дней. Отчетность на конец года, квартала (4 квартал), месяца (декабрь)</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/npf/rep/2025-12-30/ep/ep_nso_npf_y_30d.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_npf_y_31d</tp:name>      
+      <tp:description>Негосударственные пенсионные фонды. Надзорная отчетность, представляемая в течение 31 календарного дня (только форма 0420265). Отчетность на конец года, квартала (4 квартал), месяца (декабрь)</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/npf/rep/2025-12-30/ep/ep_nso_npf_y_31d.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_npf_y_90d_ex_reestr</tp:name>      
+      <tp:description>Негосударственные пенсионные фонды. Надзорная отчетность, представляемая в течение 90 календарных дней. Отчетность на конец года, квартала (4 квартал), месяца (декабрь)(за исключением реестровых форм 0420257, 0420258)</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/npf/rep/2025-12-30/ep/ep_nso_npf_y_90d_ex_reestr.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+	  <tp:name>ep_nso_npf_y_90d_reestr_0420257</tp:name>      
+      <tp:description>Негосударственные пенсионные фонды. Надзорная отчетность, представляемая в течение 90 календарных дней. Отчетность на конец года, квартала (4 квартал), месяца (декабрь)(только реестровая форма 0420257)</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/npf/rep/2025-12-30/ep/ep_nso_npf_y_90d_reestr_0420257.xsd"/>
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_npf_y_90d_reestr_0420258</tp:name>      
+      <tp:description>Негосударственные пенсионные фонды. Надзорная отчетность, представляемая в течение 90 календарных дней. Отчетность на конец года, квартала (4 квартал), месяца (декабрь)(только реестровая форма 0420258)</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/npf/rep/2025-12-30/ep/ep_nso_npf_y_90d_reestr_0420258.xsd"/>
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_npf_y_90d_specdep</tp:name>      
+      <tp:description>Негосударственные пенсионные фонды. Надзорная отчетность, представляемая в течение 90 календарных дней (для целей подтверждения специализированным депозитарием). Отчетность на конец года, квартала (4 квартал), месяца (декабрь)</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/npf/rep/2025-12-30/ep/ep_nso_npf_y_90d_specdep.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_npf_nr_nd</tp:name>      
+      <tp:description>Негосударственные пенсионные фонды. Надзорная отчетность, представляемая по запросу. Нерегулярная отчетность</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/npf/rep/2025-12-30/ep/ep_nso_npf_nr_nd.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_npf_y_45d</tp:name>      
+      <tp:description>Негосударственные пенсионные фонды. Надзорная отчетность, представляемая в течение 45 календарных дней (только формы 0420251 и 0420264). Отчетность на конец года, квартала (4 квартал), месяца (декабрь)</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/npf/rep/2025-12-30/ep/ep_nso_npf_y_45d.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>support_ep_all_nso_npf</tp:name>      
+      <tp:description>Справочно - все раскрытия НО НПФ</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/npf/rep/2025-12-30/ep/support_ep_all_nso_npf.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_aif_m_q_y_10rd_0420502</tp:name>      
+      <tp:description>Только акционерные инвестиционные фонды. Надзорная отчетность, представляемая в течение 10 рабочих дней (только форма 0420502). Отчетность на конец месяца, квартала, года (все 12 месяцев)</tp:description>  
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/uk/rep/2025-12-30/ep/ep_nso_aif_m_q_y_10rd_0420502.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_aif_m_q_y_10rd_0420503</tp:name>      
+      <tp:description>Только акционерные инвестиционные фонды. Надзорная отчетность, представляемая в течение 10 рабочих дней (только форма 0420503). Отчетность на конец месяца, квартала, года (все 12 месяцев)</tp:description>  
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/uk/rep/2025-12-30/ep/ep_nso_aif_m_q_y_10rd_0420503.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_aif_uk_m_10rd_specdep</tp:name>      
+      <tp:description>Акционерные инвестиционные фонды, управляющие компании инвестиционных фондов, паевых инвестиционных фондов и негосударственных пенсионных фондов. Надзорная отчетность, представляемая в течение 10 рабочих дней, подтверждаемая специализированным депозитарием (для целей подтверждения специализированным депозитарием). Отчетность на конец месяца (кроме марта, июня, сентября, декабря)</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/uk/rep/2025-12-30/ep/ep_nso_aif_uk_m_10rd_specdep.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_aif_uk_q_y_30d</tp:name>      
+      <tp:description>Акционерные инвестиционные фонды, управляющие компании инвестиционных фондов, паевых инвестиционных фондов и негосударственных пенсионных фондов. Надзорная отчетность, представляемая в течение 30 календарных дней. Отчетность на конец квартала, года (март, июнь, сентябрь, декабрь)</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/uk/rep/2025-12-30/ep/ep_nso_aif_uk_q_y_30d.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_uk_q_30d_0420529</tp:name>      
+      <tp:description>Только управляющие компании инвестиционных фондов, паевых инвестиционных фондов и негосударственных пенсионных фондов. Надзорная отчетность, представляемая в течение 30 календарных дней (только форма 0420529). Отчетность на конец квартала (кроме декабря и 4 квартала)</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/uk/rep/2025-12-30/ep/ep_nso_uk_q_30d_0420529.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_aif_uk_m_q_y_20rd</tp:name>      
+      <tp:description>Акционерные инвестиционные фонды, управляющие компании инвестиционных фондов, паевых инвестиционных фондов и негосударственных пенсионных фондов. Надзорная отчетность, представляемая в течение 20 рабочих дней. Отчетность на конец месяца, квартала, года (все 12 месяцев)</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/uk/rep/2025-12-30/ep/ep_nso_aif_uk_m_q_y_20rd.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_aif_uk_nr_5rd</tp:name>      
+      <tp:description>Акционерные инвестиционные фонды, управляющие компании инвестиционных фондов, паевых инвестиционных фондов и негосударственных пенсионных фондов. Надзорная отчетность, представляемая в течение 5 рабочих дней. Нерегулярная отчетность</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/uk/rep/2025-12-30/ep/ep_nso_aif_uk_nr_5rd.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_aif_uk_q_10rd_specdep</tp:name>      
+      <tp:description>Акционерные инвестиционные фонды, управляющие компании инвестиционных фондов, паевых инвестиционных фондов и негосударственных пенсионных фондов. Надзорная отчетность, представляемая в течение 10 рабочих дней, подтверждаемая специализированным депозитарием (для целей подтверждения специализированным депозитарием). Отчетность на конец квартала (кроме декабря и 4 квартала)</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/uk/rep/2025-12-30/ep/ep_nso_aif_uk_q_10rd_specdep.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_aif_uk_y_10rd_specdep</tp:name>      
+      <tp:description>Акционерные инвестиционные фонды, управляющие компании инвестиционных фондов, паевых инвестиционных фондов и негосударственных пенсионных фондов. Надзорная отчетность, представляемая в течение 10 рабочих дней, подтверждаемая специализированным депозитарием (для целей подтверждения специализированным депозитарием). Отчетность на конец года, квартала (4 квартал), месяца (декабрь)</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/uk/rep/2025-12-30/ep/ep_nso_aif_uk_y_10rd_specdep.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_aif_uk_y_30d</tp:name>      
+      <tp:description>Акционерные инвестиционные фонды, управляющие компании инвестиционных фондов, паевых инвестиционных фондов и негосударственных пенсионных фондов. Надзорная отчетность, представляемая в течение 30 календарных дней (только форма 0420520). Отчетность на конец года, квартала (4 квартал), месяца (декабрь)</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/uk/rep/2025-12-30/ep/ep_nso_aif_uk_y_30d.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_aif_uk_y_90d</tp:name>      
+      <tp:description>Акционерные инвестиционные фонды, управляющие компании инвестиционных фондов, паевых инвестиционных фондов и негосударственных пенсионных фондов. Надзорная отчетность, представляемая в течение 90 календарных дней. Отчетность на конец года</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/uk/rep/2025-12-30/ep/ep_nso_aif_uk_y_90d.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_aif_uk_y_90d_spod</tp:name>      
+      <tp:description>Акционерные инвестиционные фонды, управляющие компании инвестиционных фондов, паевых инвестиционных фондов и негосударственных пенсионных фондов. Надзорная отчетность, представляемая в течение 90 календарных дней (Для целей отражения событий после отчетного года). Отчетность на конец года</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/uk/rep/2025-12-30/ep/ep_nso_aif_uk_y_90d_spod.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_uk_m_10rd</tp:name>      
+      <tp:description>Только управляющие компании инвестиционных фондов, паевых инвестиционных фондов и негосударственных пенсионных фондов. Надзорная отчетность, представляемая в течение 10 рабочих дней. Отчетность на конец месяца (кроме марта, июня, сентября, декабря)</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/uk/rep/2025-12-30/ep/ep_nso_uk_m_10rd.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_uk_m_q_y_15rd_ods</tp:name>      
+      <tp:description>Только управляющие компании инвестиционных фондов, паевых инвестиционных фондов и негосударственных пенсионных фондов. Отчетность по форме 0420011, представляемая в течение 15 рабочих дней. Отчетность на конец месяца, квартала, года</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/nfo/rep/2025-12-30/ep/ep_nso_uk_m_q_y_15rd_ods.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_uk_nr_0420502_0420514</tp:name>      
+      <tp:description>Только управляющие компании инвестиционных фондов, паевых инвестиционных фондов и негосударственных пенсионных фондов. Надзорная отчетность, представляемая по запросу или формируемая управляющей компанией, осуществляющей прекращение паевого инвестиционного фонда (Отчетность, формируемая специализированным депозитарием, осуществляющим прекращение паевого инвестиционного фонда). Нерегулярная отчетность</tp:description>      
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/uk/rep/2025-12-30/ep/ep_nso_uk_nr_0420502_0420514.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_uk_nr_1rd</tp:name>      
+      <tp:description>Только управляющие компании инвестиционных фондов, паевых инвестиционных фондов и негосударственных пенсионных фондов. Надзорная отчетность, представляемая в течение 1 рабочего дня. Нерегулярная отчетность</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/uk/rep/2025-12-30/ep/ep_nso_uk_nr_1rd.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_uk_nr_1rd_0420528</tp:name>      
+      <tp:description>Только управляющие компании инвестиционных фондов, паевых инвестиционных фондов и негосударственных пенсионных фондов. Надзорная отчетность, представляемая в течение 1 рабочего дня (только форма 0420528). Нерегулярная отчетность</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/uk/rep/2025-12-30/ep/ep_nso_uk_nr_1rd_0420528.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_uk_q_10rd</tp:name>      
+      <tp:description>Только управляющие компании инвестиционных фондов, паевых инвестиционных фондов и негосударственных пенсионных фондов. Надзорная отчетность, представляемая в течение 10 рабочих дней. Отчетность на конец квартала (кроме декабря и 4 квартала)</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/uk/rep/2025-12-30/ep/ep_nso_uk_q_10rd.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_uk_q_15rd</tp:name>      
+      <tp:description>Только управляющие компании инвестиционных фондов, паевых инвестиционных фондов и негосударственных пенсионных фондов. Надзорная отчетность, представляемая в течение 15 рабочих дней (только форма 0420523). Отчетность на конец квартала (кроме декабря и 4 квартала)</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/uk/rep/2025-12-30/ep/ep_nso_uk_q_15rd.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_uk_q_y_30rd</tp:name>      
+      <tp:description>Только управляющие компании инвестиционных фондов, паевых инвестиционных фондов и негосударственных пенсионных фондов. Надзорная отчетность, представляемая в течение 30 рабочих дней. Отчетность на конец квартала, года (март, июнь, сентябрь, декабрь)</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/uk/rep/2025-12-30/ep/ep_nso_uk_q_y_30rd.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_uk_y_10rd</tp:name>      
+      <tp:description>Только управляющие компании инвестиционных фондов, паевых инвестиционных фондов и негосударственных пенсионных фондов. Надзорная отчетность, представляемая в течение 10 рабочих дней. Отчетность на конец года, квартала (4 квартал), месяца (декабрь)</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/uk/rep/2025-12-30/ep/ep_nso_uk_y_10rd.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>
+     <tp:name>ep_nso_uk_y_31d</tp:name>
+	 <tp:description>Только  управляющие компании инвестиционных фондов, паевых инвестиционных фондов и негосударственных пенсионных фондов. Надзорная отчетность, представляемая в течение 31 календарного дня (только форма 0420523). Отчетность на конец года, квартала (4 квартал), месяца (декабрь)</tp:description>
+	 <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/uk/rep/2025-12-30/ep/ep_nso_uk_y_31d.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_uk_y_45d_0420529</tp:name>      
+      <tp:description>Только управляющие компании инвестиционных фондов, паевых инвестиционных фондов и негосударственных пенсионных фондов. Надзорная отчетность, представляемая в течение 45 календарных дней (только форма 0420529). Отчетность на конец года, квартала (4 квартал), месяца (декабрь)</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/uk/rep/2025-12-30/ep/ep_nso_uk_y_45d_0420529.xsd"/>    
+    </tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_sd_d_3rd</tp:name>      
+      <tp:description>Специализированные депозитарии. Надзорная отчетность, представляемая в течение 3 рабочих дней. Ежедневная отчетность (кроме 0420872)</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/srki/rep/2025-12-30/ep/ep_nso_sd_d_3rd.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_sd_d_aif_pif_nekval_3rd</tp:name>      
+      <tp:description>Специализированные депозитарии. Надзорная отчетность, представляемая в течение 3 рабочих дней. Ежедневная отчетность (только 0420872) (для представления информации по АИФ (ПИФ), акции (паи) которых не предназначены для квалифицированных инвесторов)</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/srki/rep/2025-12-30/ep/ep_nso_sd_d_aif_pif_nekval_3rd.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_sd_m_q_y_aif_pif_kval_5rd</tp:name>      
+      <tp:description>Специализированные депозитарии. Надзорная отчетность, представляемая в течение 5 рабочих дней. Ежедневная отчетность (только 0420872) (для представления информации по АИФ (ПИФ), акции (паи) которых предназначены для квалифицированных инвесторов)</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/srki/rep/2025-12-30/ep/ep_nso_sd_m_q_y_aif_pif_kval_5rd.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_sd_m_q_y_3rd</tp:name>      
+      <tp:description>Специализированные депозитарии. Надзорная отчетность, представляемая в течение 3 рабочих дней. Отчетность на конец месяца, квартала, года (все месяцы)</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/srki/rep/2025-12-30/ep/ep_nso_sd_m_q_y_3rd.xsd"/>    
+	</tp:entryPoint>
+    <tp:entryPoint>      
+      <tp:name>ep_nso_sd_m_q_y_5rd</tp:name>      
+      <tp:description>Специализированные депозитарии. Надзорная отчетность, представляемая в течение 5 рабочих дней. Отчетность на конец месяца, квартала, года (все месяцы)</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/srki/rep/2025-12-30/ep/ep_nso_sd_m_q_y_5rd.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_sd_m_q_y_10rd</tp:name>      
+      <tp:description>Специализированные депозитарии. Надзорная отчетность, представляемая в течение 10 рабочих дней (кроме 0420863). Отчетность на конец месяца, квартала, года (все месяцы)</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/srki/rep/2025-12-30/ep/ep_nso_sd_m_q_y_10rd.xsd"/>    
+	</tp:entryPoint>
+    <tp:entryPoint>      
+      <tp:name>ep_nso_sd_0420863_m_q_y_10rd</tp:name>      
+      <tp:description>Специализированные депозитарии. Надзорная отчетность, представляемая в течение 10 рабочих дней (только 0420863). Отчетность на конец месяца, квартала, года (все месяцы)</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/srki/rep/2025-12-30/ep/ep_nso_sd_0420863_m_q_y_10rd.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_sd_q_30d</tp:name>      
+      <tp:description>Специализированные депозитарии. Надзорная отчетность, представляемая в течение 30 календарных дней. Отчетность на конец квартала (кроме 4-го)</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/srki/rep/2025-12-30/ep/ep_nso_sd_q_30d.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_sd_y_45d</tp:name>      
+      <tp:description>Специализированные депозитарии. Надзорная отчетность, представляемая в течение 45 календарных дней. Отчетность на конец года (4 квартала)</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/srki/rep/2025-12-30/ep/ep_nso_sd_y_45d.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint> 	
+      <tp:name>ep_nso_sd_0420861_y_45d</tp:name>      
+      <tp:description>Специализированные депозитарии. Надзорная отчетность, представляемая в течение 45 календарных дней (только форма 0420861 Раздел 4). Отчетность на конец года (4 квартала)</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/srki/rep/2025-12-30/ep/ep_nso_sd_0420861_y_45d.xsd"/>    
+    </tp:entryPoint>
+    <tp:entryPoint>      
+      <tp:name>ep_nso_sd_ned_m_5rd</tp:name>      
+      <tp:description>Специализированные депозитарии. Надзорная отчетность, представляемая в течение 5 рабочих дней. Еженедельная, ежемесячная отчетность</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/srki/rep/2025-12-30/ep/ep_nso_sd_ned_m_5rd.xsd"/>    
+	</tp:entryPoint>
+    <tp:entryPoint>      
+      <tp:name>ep_nso_sd_nr_nd</tp:name>      
+      <tp:description>Специализированные депозитарии. Надзорная отчетность, представляемая по запросу. Нерегулярная отчетность</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/srki/rep/2025-12-30/ep/ep_nso_sd_nr_nd.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_sd_0420861_nr_5rd</tp:name>      
+      <tp:description>Специализированные депозитарии. Надзорная отчетность, представляемая в течение 5 рабочих дней (только форма 0420861 Раздел 4). Нерегулярная отчетность</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/srki/rep/2025-12-30/ep/ep_nso_sd_0420861_nr_5rd.xsd"/>    
+    </tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>support_ep_all_nso_sd</tp:name>      
+      <tp:description>Специализированные депозитарии. Справочно - все раскрытия </tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/srki/rep/2025-12-30/ep/support_ep_all_nso_sd.xsd"/>    
+	</tp:entryPoint>
+  	<tp:entryPoint>      
+	  <tp:name>ep_nso_kra_m_30d</tp:name>      
+	  <tp:description>Кредитные рейтинговые агентства. Надзорная отчетность, представляемая в течение 30 календарных дней. Отчетность на конец месяца (кроме марта, июня, сентября, декабря)</tp:description>      
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/kra/rep/2025-12-30/ep/ep_nso_kra_m_30d.xsd"/>    
+	</tp:entryPoint>
+    <tp:entryPoint>      
+	  <tp:name>ep_nso_kra_m_q_30d</tp:name>      
+	  <tp:description>Кредитные рейтинговые агентства. Надзорная отчетность, представляемая в течение 30 календарных дней. Отчетность на конец месяца (март, июнь, сентябрь), квартала (кроме 4-го) (для БФО - на конец квартала (кроме 4-го))</tp:description>      
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/kra/rep/2025-12-30/ep/ep_nso_kra_m_q_30d.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+	  <tp:name>ep_nso_kra_y_90d</tp:name>      
+	  <tp:description>Кредитные рейтинговые агентства. Надзорная отчетность, представляемая в течение 90 календарных дней. Отчетность на конец года, квартала (4 квартал), месяца (декабрь) (для БФО - на конец года)</tp:description>      
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/kra/rep/2025-12-30/ep/ep_nso_kra_y_90d.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+	  <tp:name>ep_nso_kra_y_30d</tp:name>      
+	  <tp:description>Кредитные рейтинговые агентства. Надзорная отчетность, представляемая в течение 30 календарных дней. Отчетность на конец года, квартала (4 квартал), месяца (декабрь) (для БФО - на конец года)</tp:description>      
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/kra/rep/2025-12-30/ep/ep_nso_kra_y_30d.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+	  <tp:name>ep_nso_kra_y_45d</tp:name>      
+	  <tp:description>Кредитные рейтинговые агентства. Надзорная отчетность, представляемая в течение 45 календарных дней. Отчетность на конец года, квартала (4 квартал), месяца (декабрь)</tp:description>      
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/kra/rep/2025-12-30/ep/ep_nso_kra_y_45d.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+	  <tp:name>ep_nso_kra_y_105d</tp:name>      
+	  <tp:description>Кредитные рейтинговые агентства. Надзорная отчетность, представляемая в течение 105 календарных дней. Нерегулярная отчетность</tp:description>      
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/kra/rep/2025-12-30/ep/ep_nso_kra_y_105d.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+	  <tp:name>ep_nso_kra_nr_5rd</tp:name>      
+	  <tp:description>Кредитные рейтинговые агентства. Надзорная отчетность, представляемая не позднее 5 рабочих дней со дня изменения сведений. Нерегулярная отчетность</tp:description>      
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/kra/rep/2025-12-30/ep/ep_nso_kra_nr_5rd.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+	  <tp:name>ep_nso_kra_nr_10rd</tp:name>      
+	  <tp:description>Кредитные рейтинговые агентства. Надзорная отчетность, представляемая не позднее 10 рабочих дней со дня изменения сведений. Нерегулярная отчетность</tp:description>      
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/kra/rep/2025-12-30/ep/ep_nso_kra_nr_10rd.xsd"/>    
+	</tp:entryPoint>
+    <tp:entryPoint>      
+	  <tp:name>ep_nso_kra_nr_r14_d</tp:name>      
+	  <tp:description>Кредитные рейтинговые агентства. Надзорная отчетность, представляемая не позднее 23 часов 59 минут по московскому времени даты опубликования информации о рейтинговых действиях, совершенных кредитным рейтинговым агентством, и не позднее 23 часов 59 минут по московскому времени даты утверждения рейтинговой шкалы. Нерегулярная отчетность</tp:description>      
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/kra/rep/2025-12-30/ep/ep_nso_kra_nr_r14_d.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+	  <tp:name>support_ep_all_kra</tp:name>      
+	  <tp:description>Справочно-все раскрытия-Кредитные рейтинговые агентства</tp:description>      
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/kra/rep/2025-12-30/ep/support_ep_all_kra.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+	  <tp:name>ep_nso_ins_m_q_y_15rd_ods</tp:name>      
+	  <tp:description>Общества взаимного страхования или страховые организации, не занимающиеся исключительно обязательным медицинским страхованием. Отчетность по форме 0420011, представляемая в течение 15 рабочих дней. Отчетность на конец месяца, квартала, года </tp:description>   
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/nfo/rep/2025-12-30/ep/ep_nso_ins_m_q_y_15rd_ods.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_oip_m_q_y_15rd_ods</tp:name>      
+      <tp:description>Операторы инвестиционных платформ. Отчетность по форме 0420011, представляемая в течение 15 рабочих дней. Отчетность на конец месяца, квартала, года</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/nfo/rep/2025-12-30/ep/ep_nso_oip_m_q_y_15rd_ods.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_iso_m_q_y_15rd_ods</tp:name>      
+      <tp:description>Иностранные страховые организации. Отчетность по форме 0420011, представляемая в течение 15 рабочих дней. Отчетность на конец месяца, квартала, года</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/nfo/rep/2025-12-30/ep/ep_nso_iso_m_q_y_15rd_ods.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_oper_0420708_ex_r1_q_y_15rd</tp:name>      
+      <tp:description>Операторы инвестиционных платформ. Надзорная отчетность, представляемая не позднее 15 рабочих дней после отчетной даты (только форма 0420708 за исключением раздела 1). Отчетность на конец квартала, года.</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/operatory/rep/2025-12-30/ep/ep_nso_oper_0420708_ex_r1_q_y_15rd.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_oper_0420721_q_15rd</tp:name>      
+      <tp:description>Операторы инвестиционных платформ, операторы финансовых платформ, операторы информационных систем, в которых осуществляется выпуск цифровых финансовых активов, операторы обмена цифровых финансовых активов. Надзорная отчетность, представляемая в течение 15 рабочих дней (только форма 0420721). Отчетность на конец квартала (кроме 4-го)</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/operatory/rep/2025-12-30/ep/ep_nso_oper_0420721_q_15rd.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>
+      <tp:name>ep_nso_oper_0420934_ex_r1_p1_2_q_y_15rd</tp:name>       
+	  <tp:description>Операторы финансовых платформ. Надзорная отчетность, представляемая не позднее 15 рабочих дней после отчетной даты (только форма 0420934 за исключением подраздела 1.2 раздела 1). Отчетность на конец квартала, года.</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/operatory/rep/2025-12-30/ep/ep_nso_oper_0420934_ex_r1_p1_2_q_y_15rd.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_oper_q_30d</tp:name>      
+      <tp:description>Операторы инвестиционных платформ, операторы финансовых платформ, операторы информационных систем, в которых осуществляется выпуск цифровых финансовых активов, операторы обмена цифровых финансовых активов. Надзорная отчетность, представляемая не позднее 30 календарных дней после отчетной даты. Отчетность на конец квартала.</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/operatory/rep/2025-12-30/ep/ep_nso_oper_q_30d.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_oper_y_45d</tp:name>      
+      <tp:description>Операторы инвестиционных платформ, операторы финансовых платформ, операторы информационных систем, в которых осуществляется выпуск цифровых финансовых активов, операторы обмена цифровых финансовых активов. Надзорная отчетность, представляемая не позднее 45 календарных дней после отчетной даты. Отчетность на конец года, квартала (4 квартал).</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/operatory/rep/2025-12-30/ep/ep_nso_oper_y_45d.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_oper_0420721_y_31d</tp:name>      
+      <tp:description>Операторы инвестиционных платформ, операторы финансовых платформ, операторы информационных систем, в которых осуществляется выпуск цифровых финансовых активов, операторы обмена цифровых финансовых активов. Надзорная отчетность, представляемая в течение 31 календарного дня (только форма 0420721). Отчетность на конец года, квартала (4 квартал).</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/operatory/rep/2025-12-30/ep/ep_nso_oper_0420721_y_31d.xsd"/>    
+	</tp:entryPoint>	
+	<tp:entryPoint>      
+      <tp:name>ep_nso_oper_0420711_nr_1rd</tp:name>      
+      <tp:description>Операторы инвестиционных платформ. Надзорная отчетность, представляемая в течение 1 рабочего дня (только форма 0420711). Нерегулярная отчетность.</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/operatory/rep/2025-12-30/ep/ep_nso_oper_0420711_nr_1rd.xsd"/>    
+	</tp:entryPoint>	
+	<tp:entryPoint>      
+      <tp:name>ep_nso_oper_0420710_nr_2rd</tp:name>      
+      <tp:description>Операторы инвестиционных платформ. Надзорная отчетность, представляемая в течение 2 рабочих дней (только форма 0420710). Нерегулярная отчетность.</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/operatory/rep/2025-12-30/ep/ep_nso_oper_0420710_nr_2rd.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_oper_nr_5rd</tp:name>      
+      <tp:description>Операторы инвестиционных платформ, операторы финансовых платформ, операторы информационных систем, в которых осуществляется выпуск цифровых финансовых активов, операторы обмена цифровых финансовых активов. Надзорная отчетность, представляемая в течение 5 рабочих дней. Нерегулярная отчетность.</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/operatory/rep/2025-12-30/ep/ep_nso_oper_nr_5rd.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_oper_0420722_nr_30rd</tp:name>      
+      <tp:description>Операторы инвестиционных платформ, операторы финансовых платформ, операторы информационных систем, в которых осуществляется выпуск цифровых финансовых активов, операторы обмена цифровых финансовых активов. Надзорная отчетность, представляемая в течение 30 рабочих дней (только форма 0420722). Нерегулярная отчетность.</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/operatory/rep/2025-12-30/ep/ep_nso_oper_0420722_nr_30rd.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_oper_y_30d</tp:name>      
+      <tp:description>Операторы инвестиционных платформ, операторы финансовых платформ, операторы информационных систем, в которых осуществляется выпуск цифровых финансовых активов, операторы обмена цифровых финансовых активов. Надзорная отчетность, представляемая в течение 30 календарных дней. Отчетность на конец года.</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/operatory/rep/2025-12-30/ep/ep_nso_oper_y_30d.xsd"/>    
+    </tp:entryPoint>
+    <tp:entryPoint>      
+      <tp:name>ep_nso_oper_y_90d_spod</tp:name>      
+      <tp:description>Операторы инвестиционных платформ, операторы финансовых платформ, операторы информационных систем, в которых осуществляется выпуск цифровых финансовых активов, операторы обмена цифровых финансовых активов. Надзорная отчетность, представляемая в течение 90 календарных дней (Для целей отражения событий после отчетного года). Отчетность на конец года.</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/operatory/rep/2025-12-30/ep/ep_nso_oper_y_90d_spod.xsd"/>    
+    </tp:entryPoint>
+    <tp:entryPoint>      
+      <tp:name>ep_nso_opp_q_y_22rd</tp:name>      
+      <tp:description>Операторы по приему платежей. Надзорная отчетность, представляемая в течение 22 рабочих дней. Отчетность на конец квартала, года.</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/opp/rep/2025-12-30/ep/ep_nso_opp_q_y_22rd.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>
+	  <tp:name>support_ep_all_nso_opp</tp:name>
+	  <tp:description>Справочно-все раскрытия НСО оператора по приему платежей</tp:description>
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/opp/rep/2025-12-30/ep/support_ep_all_nso_opp.xsd"/>
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_sro_q_23rd</tp:name>
+      <tp:description>Саморегулируемые организации в сфере финансового рынка. Надзорная отчетность, представляемая в течение 23 рабочих дней. Отчетность на конец квартала (кроме 4 квартала).</tp:description>
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/sro/rep/2025-12-30/ep/ep_nso_sro_q_23rd.xsd"/>
+	</tp:entryPoint>
+	<tp:entryPoint>
+      <tp:name>ep_nso_sro_y_23rd</tp:name>
+      <tp:description>Саморегулируемые организации в сфере финансового рынка. Надзорная отчетность, представляемая в течение 23 рабочих дней. Отчетность на конец года,  квартала (4 квартал).</tp:description>
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/sro/rep/2025-12-30/ep/ep_nso_sro_y_23rd.xsd"/>
+	</tp:entryPoint>
+	<tp:entryPoint>
+      <tp:name>ep_nso_sro_nr</tp:name>      
+      <tp:description>Саморегулируемые организации в сфере финансового рынка. Нерегулярная отчетность.</tp:description>
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/sro/rep/2025-12-30/ep/ep_nso_sro_nr.xsd"/>
+	</tp:entryPoint>
+	<tp:entryPoint>
+      <tp:name>ep_nso_sro_y_1apr</tp:name>
+      <tp:description>Саморегулируемые организации в сфере финансового рынка. Надзорная отчетность, представляемая не позднее 1 апреля года, следующего за отчетным годом. Отчетность на конец года.</tp:description>
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/sro/rep/2025-12-30/ep/ep_nso_sro_y_1apr.xsd"/>
+	</tp:entryPoint>
+    <tp:entryPoint>
+	  <tp:name>support_ep_all_nso_sro</tp:name>
+	  <tp:description>Справочно-все раскрытия НСО cаморегулируемой организации в сфере финансового рынка</tp:description>
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/sro/rep/2025-12-30/ep/support_ep_all_nso_sro.xsd"/>
+	</tp:entryPoint>
+	</tp:entryPoints>
+</tp:taxonomyPackage>
