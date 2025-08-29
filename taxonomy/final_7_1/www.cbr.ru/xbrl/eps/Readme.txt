@@ -1,1 +1,0 @@
-Единый план счетов -Chart of Accounts

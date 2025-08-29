@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<TaxonomyDescription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Version>20251230</Version>
-  <DateBegin>2025-12-30T00:00:00</DateBegin>
-  <DateEnd>2026-12-31T00:00:00</DateEnd>
-  <DatePublic xsi:nil="true"></DatePublic>
-  <Comments>Таксономия XBRL Банка России версия 7.1 (финальная корректировочная)</Comments>
-</TaxonomyDescription>
