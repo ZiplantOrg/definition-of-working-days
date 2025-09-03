@@ -1,10 +1,17 @@
 import os
+import pickle
+import time
+from datetime import timedelta
 import traceback
 import xml.etree.ElementTree as ET
-from xml import etree
-
 from lxml import etree as ET
 from pathlib import Path
+
+# Путь к файлу кэша
+CACHE_FILE = 'taxonomy_cache.pkl'
+# CACHE_EXPIRE_SECONDS = 86400  # 24 часа после пересобирает кеш
+CACHE_EXPIRE_SECONDS = 86400  # 24 часа
+
 
 async def read_taxonomy():
     folder_path = 'taxonomy'
@@ -12,47 +19,48 @@ async def read_taxonomy():
     market_segments = {'uk', 'srki'}
 
     try:
-        # Проверяем, существует ли папка taxonomy
+        # Проверяем наличие и актуальность кэша
+        if os.path.exists(CACHE_FILE):
+            file_mod_time = os.path.getmtime(CACHE_FILE)
+            if time.time() - file_mod_time < CACHE_EXPIRE_SECONDS:
+                with open(CACHE_FILE, 'rb') as f:
+                    entry_points_all_segment_forms_period = pickle.load(f)
+                    print("Данные загружены из кэша.")
+                    print("точка входа период:", entry_points_all_segment_forms_period)
+                    return entry_points_all_segment_forms_period
+
+        # Если кэш устарел или отсутствует — пересобираем данные
         if os.path.exists(folder_path) and os.path.isdir(folder_path):
 
-            # Получаем список всех подпапок
             subfolders = [f.name for f in os.scandir(folder_path) if f.is_dir()]
-
-            # получаем путь к папке nso
-            path_market = f'{subfolders[0]}/{path_market}'  # без лишнего слэша в начале
-
-            # получаем абсолютный путь к 'taxonomy'
+            path_market = f'{subfolders[0]}/{path_market}'
             base_dir = os.path.abspath(folder_path)
 
-            # Инициализация пустого словаря
             entry_points_all_segment_forms_period = {}
 
-            # прорабатываем каждый рынок из переменной market_segments присваимем периоды которые находятся в каждой точке входа
             for segment in market_segments:
-               # получаем путь к сегменту рынка
-               full_segment_path = os.path.join(base_dir, path_market, segment)
+                full_segment_path = os.path.join(base_dir, path_market, segment)
+                entry_points_forms = await entry_point(full_segment_path)
+                entry_points_one_segment_forms_period = await get_period_from_rend(entry_points_forms, full_segment_path)
+                entry_points_all_segment_forms_period.update(entry_points_one_segment_forms_period)
 
-               # Получаем список точек входа и их компоненты по формам
-               entry_points_forms  = await entry_point(full_segment_path)
-
-               # Получаем список точек входа и форм + периоды
-               entry_points_one_segment_forms_period = await get_period_from_rend(entry_points_forms,full_segment_path)
-               # Обновляем список с точками входа
-               entry_points_all_segment_forms_period.update(entry_points_one_segment_forms_period)
-
-            # присвоить маркеры month_obj/quart_obj/year_obj
-            entry_points_all_segment_forms_period =  await period_marker(entry_points_all_segment_forms_period)
+            entry_points_all_segment_forms_period = await period_marker(entry_points_all_segment_forms_period)
             print("точка входа период:", entry_points_all_segment_forms_period)
+
+            # Сохраняем кэш
+            with open(CACHE_FILE, 'wb') as f:
+                pickle.dump(entry_points_all_segment_forms_period, f)
+                print("Кэш успешно обновлён.")
+
+            return entry_points_all_segment_forms_period
 
         else:
             print(f"Папка '{folder_path}' не существует.")
 
-
-
     except Exception as e:
-        # Выводим номер строки и сообщение об ошибке
         tb = traceback.format_exc()
         print(f"Ошибка произошла:\n{tb}")
+
 
 # Функция перебора точек входа
 async def entry_point(full_segment_path):
@@ -138,7 +146,9 @@ async def get_period_from_rend(entry_points_forms,full_segment_path):
                                     full_path = os.path.join(parent_path, href)
                                     absolute_paths.append(full_path)
 
+                                  # очищаем список от лишних файлов и оставляем только -rend.
                                     absolute_paths = [path for path in absolute_paths if path.endswith('-rend.xml')]
+
                                     # обрабатываем даты instance
                                     formula_instant_values = await formula_instant(key_entry_point,absolute_paths, entry_points_forms)
 
@@ -231,6 +241,7 @@ async def formula_duration (key_entry_point, absolute_paths,entry_points_forms):
             print(f"Ошибка при обработке файла {file_path}: {e}")
     return entry_points_forms
 
+ # присвоить маркеры month_obj/quart_obj/year_obj
 async def period_marker(entry_points_all_segment_forms_period):
     # Создаем копию ключей, чтобы избежать изменения словаря во время итерации
     for entry_point in list(entry_points_all_segment_forms_period.keys()):
